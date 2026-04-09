@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Electricity News | South Africa Energy &amp; Power Updates</title>
+    <meta name="description" content="Daily aggregated electricity and energy news from South Africa. Covering Eskom, NERSA, load shedding, tariffs, renewables, and more.">
+    <meta name="keywords" content="South Africa, electricity, Eskom, NERSA, load shedding, energy, power, tariffs, renewable energy">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="SA Electricity News">
+    <meta property="og:description" content="Daily aggregated electricity and energy news from South Africa.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon (lightning bolt) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <div>
+                        <h1>SA Electricity News</h1>
+                        <p class="tagline">South Africa's Energy &amp; Power News Aggregator</p>
+                    </div>
+                </div>
+                <div class="header-meta">
+                    <span class="update-badge" id="last-updated">Last updated: 09 Apr 2026, 14:06 UTC</span>
+                    <span class="article-count" id="article-count">0 articles</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation / Category Filter -->
+    <nav class="category-nav">
+        <div class="container">
+            <div class="category-filters" id="category-filters">
+                <button class="filter-btn active" data-category="all">
+                    All News <span class="count">0</span>
+                </button>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search articles..." aria-label="Search articles">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured / Latest Article -->
+    
+
+    <!-- Articles Grid -->
+    <main class="articles-section">
+        <div class="container">
+            <div class="articles-grid" id="articles-grid">
+                
+            </div>
+
+            
+            <div class="empty-state" id="empty-state">
+                <span class="empty-icon">📰</span>
+                <h2>No articles yet</h2>
+                <p>The scraper hasn't collected any articles yet. News will appear here after the next scheduled run.</p>
+            </div>
+            
+
+            <div class="no-results" id="no-results" style="display: none;">
+                <span class="empty-icon">🔍</span>
+                <h2>No matching articles</h2>
+                <p>Try a different search term or category filter.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><strong>SA Electricity News</strong> &mdash; Automated daily aggregation of South African electricity and energy news.</p>
+                    <p class="disclaimer">This site aggregates publicly available news. All articles link to their original sources. We do not claim ownership of any content.</p>
+                </div>
+                <div class="footer-sources">
+                    <p><strong>Sources include:</strong> News24, EWN, Daily Maverick, Engineering News, ESI Africa, MyBroadband, BusinessTech, Moneyweb, Google News, and more.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SA Electricity News. Built with Python &amp; GitHub Actions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/app.js"></script>
+</body>
+</html>
